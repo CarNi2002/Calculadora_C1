@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <h6>By Carlos Loaiza Ruedas</h6>
+    <div id="calculadora" class="border-warning border-5 rounded-4">
+        <div id="pantalla" class="border border-warning-subtle border-3 text-center fs-1 rounded-4">0</div>
+        <div class="text-center">
+          <button class="btn btn-secondary p-4" onclick="ingresar('7')">7</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('8')">8</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('9')">9</button>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-secondary p-4" onclick="ingresar('4')">4</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('5')">5</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('6')">6</button>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-secondary p-4" onclick="ingresar('1')">1</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('2')">2</button>
+          <button class="btn btn-secondary p-4" onclick="ingresar('3')">3</button>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-secondary p-4" onclick="ingresar('0')">0</button>
+        </div>
+        <div class="operadores text-center">
+          <button class="btn btn-outline-danger" onclick="borrar()">C</button>
+          <button class="btn btn-outline-primary" onclick="ingresar('.')">.</button>
+          <button class="btn btn-outline-primary" onclick="calcular()">=</button>
+        </div>
+        <div class="operadores text-center">
+            <button class="btn btn-outline-info" onclick="ingresar('/')">/</button>
+            <button class="btn btn-outline-info" onclick="ingresar('*')">*</button>
+            <button class="btn btn-outline-info" onclick="ingresar('-')">-</button>
+            <button class="btn btn-outline-info" onclick="ingresar('+')">+</button>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

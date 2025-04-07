@@ -1,0 +1,24 @@
+body{
+    min-width: 250px;
+    background-color: rgb(252, 243, 207);
+}
+
+.text-center{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.operadores{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+}
+
+h6{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}
